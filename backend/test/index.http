@@ -1,0 +1,21 @@
+POST http://localhost:3000/api/books
+Content-Type: application/json
+
+{
+  "id": 2,
+  "title": "asdada",
+  "author": "miguel",
+  "release_date": 2023
+}
+
+###
+
+GET http://localhost:3000/api/books
+
+###
+
+DELETE http://localhost:3000/api/books/-1
+
+###
+
+GET http://localhost:3000/api/books
